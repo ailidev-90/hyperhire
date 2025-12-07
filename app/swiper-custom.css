@@ -1,0 +1,26 @@
+/* Custom Swiper Styles for Profile Carousel */
+.profile-swiper-stack {
+  width: 100%;
+  padding: 80px 0 50px 0;
+  overflow: visible !important;
+}
+
+.profile-swiper-stack .swiper-wrapper {
+  align-items: flex-start;
+}
+
+.profile-swiper-stack .swiper-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: transparent;
+}
+
+.profile-swiper-stack .swiper-slide-active {
+  z-index: 30 !important;
+}
+
+.profile-swiper-stack .swiper-slide-prev,
+.profile-swiper-stack .swiper-slide-next {
+  z-index: 10 !important;
+}
